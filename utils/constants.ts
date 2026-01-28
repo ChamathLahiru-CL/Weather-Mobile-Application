@@ -7,9 +7,9 @@ export const CITIES = {
 };
 
 export const WEATHER_CODES: Record<number, string> = {
-  0: "Clear sky ☀️",
-  1: "Mainly clear 🌤️",
-  2: "Partly cloudy ⛅",
-  3: "Overcast ☁️",
-  61: "Rain 🌧️",
+  0: "☀️ Clear sky",
+  1: "🌤️ Mainly clear",
+  2: "⛅ Partly cloudy",
+  3: "☁️ Overcast",
+  61: "🌧️ Rain showers",
 };
