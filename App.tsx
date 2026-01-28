@@ -11,20 +11,16 @@ export default function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    console.log("City changed to:", city);
     fetchWeather();
   }, [city]);
 
   const fetchWeather = async () => {
-    console.log("Fetching weather for:", city);
     try {
       setLoading(true);
 
       const { latitude, longitude } = CITIES[city];
 
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&daily=sunrise,sunset&timezone=auto`;
-
-      console.log("Fetching weather from:", url);
 
       const response = await fetch(url);
 
@@ -33,9 +29,6 @@ export default function App() {
       }
 
       const data = await response.json();
-
-      // Debug: Log the API response
-      console.log("API Response:", data);
 
       // Validate API response structure
       if (!data.current_weather) {
@@ -52,11 +45,6 @@ export default function App() {
         weathercode: data.current_weather.weathercode,
         sunrise: data.daily.sunrise[0],
         sunset: data.daily.sunset[0],
-      });
-
-      console.log("Weather data updated for", city, ":", {
-        temperature: data.current_weather.temperature,
-        weathercode: data.current_weather.weathercode
       });
 
     } catch (error) {
