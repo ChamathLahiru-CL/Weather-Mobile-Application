@@ -57,18 +57,16 @@ A beautiful, modern weather application for Sri Lanka built with React Native an
 ### 🌟 App Interface
 
 #### City Selection & Weather Display
-![City Selection](https://via.placeholder.com/300x600/4A90E2/FFFFFF?text=City+Selection) ![Weather Display](https://via.placeholder.com/300x600/EAF4FF/2A6FDB?text=Weather+Card)
+<img width="382" height="852" alt="image" src="https://github.com/user-attachments/assets/f8ed2860-0722-4447-a794-2c9f9b60a729" />
 
-#### Mobile Layout (iOS & Android)
-<div align="center">
-  <img src="https://via.placeholder.com/300x650/FFFFFF/4A90E2?text=iOS+App" alt="iOS App Screenshot" width="300"/>
-  <img src="https://via.placeholder.com/300x650/FFFFFF/4A90E2?text=Android+App" alt="Android App Screenshot" width="300"/>
-</div>
 
-#### Web Version
-<div align="center">
-  <img src="https://via.placeholder.com/800x500/EAF4FF/2A6FDB?text=Web+Version" alt="Web App Screenshot" width="600"/>
-</div>
+#### Mobile Layout (Android)
+<img width="386" height="858" alt="image" src="https://github.com/user-attachments/assets/6c6f8361-c9d2-4eb5-8479-5ff878f8ad9d" />
+
+<img width="388" height="864" alt="image" src="https://github.com/user-attachments/assets/b1aedfa8-395f-4598-ab53-d9c2c39c0f45" />
+
+<img width="382" height="859" alt="image" src="https://github.com/user-attachments/assets/e6c364dc-9781-453d-8c4a-8d281989f68f" />
+
 
 ### 🎨 UI Features
 
